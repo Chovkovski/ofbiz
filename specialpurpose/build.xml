@@ -33,7 +33,6 @@
         scrum/build.xml,
         ldap/build.xml,
         crowd/build.xml,
-        webpos/build.xml
         googlecheckout/build.xml,
         example/build.xml
     "/>
