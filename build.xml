@@ -26,7 +26,6 @@ under the License.
     <property name="site.dir" value="../site"/>
     <property name="memory.initial.param" value="-Xms128M"/>
     <property name="memory.max.param" value="-Xmx512M"/>
-    <property name="pos.memory.max.param" value="-Xmx512M"/>
     <property name="memory.maxpermsize.param" value="-XX:MaxPermSize=512m"/>
 
     <available file="applications/build.xml" property="applications.present"/>
@@ -295,7 +294,6 @@ under the License.
           <fileset dir="${ofbiz.home.dir}/specialpurpose/ebaystore/lib" includes="*.jar"/>
           <fileset dir="${ofbiz.home.dir}/specialpurpose/googlecheckout/lib" includes="*.jar"/>
           <fileset dir="${ofbiz.home.dir}/specialpurpose/ldap/lib" includes="*.jar"/>
-          <fileset dir="${ofbiz.home.dir}/specialpurpose/pos/lib" includes="*.jar"/>
           <fileset dir="${ofbiz.home.dir}/applications/content/lib" includes="*.jar"/>
           <fileset dir="${ofbiz.home.dir}/applications/product/lib" includes="*.jar"/>
         </path>
@@ -403,15 +401,6 @@ under the License.
             <jvmarg value="-Djava.compiler=NONE"/>
             <jvmarg value="-Xdebug"/>
             <jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8091"/>
-        </java>
-    </target>
-    <target name="start-pos"
-            description="Start OFBiz POS (Point of sale)">
-        <java jar="ofbiz.jar" fork="true">
-            <jvmarg value="${memory.initial.param}"/>
-            <jvmarg value="${memory.max.param}"/>
-            <jvmarg value="${memory.maxpermsize.param}"/>
-            <arg value="pos"/>
         </java>
     </target>
     <target name="stop"
@@ -1034,7 +1023,7 @@ under the License.
             applications/manufacturing/src, applications/marketing/src, applications/order/src, applications/party/src,
             applications/product/src, applications/securityext/src, applications/workeffort/src, specialpurpose/assetmaint/src,
             specialpurpose/ebay/src, specialpurpose/ebaystore/src, specialpurpose/ecommerce/src, specialpurpose/googlebase/src,
-            specialpurpose/googlecheckout/src, specialpurpose/hhfacility/src, specialpurpose/oagis/src, specialpurpose/pos/src,
+            specialpurpose/googlecheckout/src, specialpurpose/hhfacility/src, specialpurpose/oagis/src,
             specialpurpose/scrum/src" />
         <property name="sonar.tests" value="framework/base/src/org/ofbiz/base/test, framework/entity/src/org/ofbiz/entity/test,
             framework/service/src/org/ofbiz/service/test, framework/sql/src/org/ofbiz/sql/test,
@@ -1236,9 +1225,6 @@ under the License.
     </target>
     <target name="run-debug">
         <echo message="The 'run-debug' command has been renamed 'start-debug'; please use 'ant start-debug' to start OFBiz in debug mode."/>
-    </target>
-    <target name="run-pos">
-        <echo message="The 'run-pos' command has been renamed 'start-pos'; please use 'ant start-pos' to start the OFBiz POS."/>
     </target>
     <target name="run-install">
         <echo message="The 'run-install' command has been renamed 'load-demo'; please use 'ant load-demo' to load seed and demo data."/>
