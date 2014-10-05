@@ -30,7 +30,6 @@
         ebaystore/build.xml,
         projectmgr/build.xml,
         scrum/build.xml,
-        ldap/build.xml,
         googlecheckout/build.xml,
         example/build.xml
     "/>
