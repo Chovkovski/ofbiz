@@ -25,8 +25,6 @@
         ecommerce/build.xml,
         hhfacility/build.xml,
         assetmaint/build.xml,
-        ebay/build.xml,
-        ebaystore/build.xml,
         example/build.xml
     "/>
     <!-- For the old OFBiz Workflow Engine add "workflow/build.xml" to the list above -->
