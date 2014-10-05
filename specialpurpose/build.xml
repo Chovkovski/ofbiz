@@ -28,7 +28,6 @@
         googlebase/build.xml,
         ebay/build.xml,
         ebaystore/build.xml,
-        projectmgr/build.xml,
         googlecheckout/build.xml,
         example/build.xml
     "/>
