@@ -1022,8 +1022,7 @@ under the License.
             applications/manufacturing/src, applications/marketing/src, applications/order/src, applications/party/src,
             applications/product/src, applications/securityext/src, applications/workeffort/src, specialpurpose/assetmaint/src,
             specialpurpose/ebay/src, specialpurpose/ebaystore/src, specialpurpose/ecommerce/src, specialpurpose/googlebase/src,
-            specialpurpose/googlecheckout/src, specialpurpose/hhfacility/src,
-            specialpurpose/scrum/src" />
+            specialpurpose/googlecheckout/src, specialpurpose/hhfacility/src" />
         <property name="sonar.tests" value="framework/base/src/org/ofbiz/base/test, framework/entity/src/org/ofbiz/entity/test,
             framework/service/src/org/ofbiz/service/test, framework/sql/src/org/ofbiz/sql/test,
             applications/accounting/src/org/ofbiz/accounting/test, applications/content/src/org/ofbiz/content/test,
