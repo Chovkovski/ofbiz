@@ -31,7 +31,6 @@ under the License.
     <load-component component-location="ebay"/>
     <load-component component-location="ebaystore"/>
     <load-component component-location="myportal"/>
-    <load-component component-location="crowd"/>
     <load-component component-location="ldap"/>
     <load-component component-location="example"/>
     <load-component component-location="exampleext"/>
