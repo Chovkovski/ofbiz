@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
+<%--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
 distributed with this work for additional information
@@ -16,15 +15,6 @@ software distributed under the License is distributed on an
 KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
--->
+--%>
 
-<component-loader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/component-loader.xsd">
-    <load-component component-location="ecommerce"/>
-    <load-component component-location="example"/>
-    <!-- The component below are not maintained by the community, or at least not very actively
-        Still they are functional (or at least should be). 
-        So if you need them simply uncomment and have a look also in the build file -->
-    <!-- <load-component component-location="workflow"/> -->
-    <!-- <load-component component-location="shark"/> -->
-</component-loader>
+<%response.sendRedirect("control/main");%>
