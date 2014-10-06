@@ -23,8 +23,6 @@
     <filelist id="specialpurpose-builds" dir="."
         files="
         ecommerce/build.xml,
-        hhfacility/build.xml,
-        assetmaint/build.xml,
         googlebase/build.xml,
         ebay/build.xml,
         ebaystore/build.xml,
