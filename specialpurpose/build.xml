@@ -31,7 +31,6 @@
         ebaystore/build.xml,
         projectmgr/build.xml,
         scrum/build.xml,
-        webpos/build.xml
         googlecheckout/build.xml,
         example/build.xml
     "/>
