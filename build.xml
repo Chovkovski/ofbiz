@@ -1019,7 +1019,7 @@ under the License.
             framework/testtools/src, framework/webapp/src, framework/webtools/src, framework/widget/src,
             applications/accounting/src, applications/commonext/src, applications/content/src, applications/humanres/src,
             applications/manufacturing/src, applications/marketing/src, applications/order/src, applications/party/src,
-            applications/product/src, applications/securityext/src, applications/workeffort/src,
+            applications/product/src, applications/securityext/src,
             specialpurpose/ebay/src, specialpurpose/ecommerce/src" />
         <property name="sonar.tests" value="framework/base/src/org/ofbiz/base/test, framework/entity/src/org/ofbiz/entity/test,
             framework/service/src/org/ofbiz/service/test, framework/sql/src/org/ofbiz/sql/test,
